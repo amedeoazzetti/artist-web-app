@@ -89,3 +89,12 @@ last_updated: 2025-01
 | Artista / Cliente | [da inserire] | [da inserire] |
 | Developer | [tuo nome] | [tua email] |
 | Legale (revisione termini) | [da trovare] | — |
+
+## 2026-04-02 — Bootstrap sito web da specifiche vault
+- ✅ Inizializzata base Next.js App Router con TypeScript strict e struttura cartelle principale.
+- ✅ Aggiunto design system base in `app/globals.css` con token colore e font variables.
+- ✅ Implementati layout pubblico con `Nav` e `Footer` + pagine principali (home, galleria, bio, commissioni, contatti, ordine).
+- ✅ Creati componenti principali `ArtworkCard`, `BuyButton`, `StatusBadge` con dati mock.
+- ✅ Aggiunti endpoint API stub per checkout, webhook Stripe e cron release-reservations.
+- 🚧 Integrazione reale Sanity/Prisma/Stripe/Resend da completare nei task successivi.
+- ✅ Fix build: aggiunta dipendenza `@tailwindcss/postcss` in devDependencies per risolvere l'errore di compilazione Next su plugin PostCSS mancante.
