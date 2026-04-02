@@ -97,3 +97,4 @@ last_updated: 2025-01
 - ✅ Creati componenti principali `ArtworkCard`, `BuyButton`, `StatusBadge` con dati mock.
 - ✅ Aggiunti endpoint API stub per checkout, webhook Stripe e cron release-reservations.
 - 🚧 Integrazione reale Sanity/Prisma/Stripe/Resend da completare nei task successivi.
+- ✅ Fix build: aggiunta dipendenza `@tailwindcss/postcss` in devDependencies per risolvere l'errore di compilazione Next su plugin PostCSS mancante.
