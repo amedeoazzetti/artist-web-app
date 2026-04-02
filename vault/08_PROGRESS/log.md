@@ -99,3 +99,4 @@ last_updated: 2025-01
 - 🚧 Integrazione reale Sanity/Prisma/Stripe/Resend da completare nei task successivi.
 - ✅ Fix build: aggiunta dipendenza `@tailwindcss/postcss` in devDependencies per risolvere l'errore di compilazione Next su plugin PostCSS mancante.
 - ✅ Aggiornato stack frontend a Next.js 16 (`next`, `eslint-config-next`) con React 19 + type definitions compatibili.
+- ✅ Spostata `@tailwindcss/postcss` in `dependencies` (non solo devDependencies) per evitare errore runtime `Cannot find module '@tailwindcss/postcss'` in avvio `npm run dev`.
